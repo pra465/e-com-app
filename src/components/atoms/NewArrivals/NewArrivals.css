@@ -1,0 +1,36 @@
+.text-move-container{
+    overflow: hidden;
+}
+.text-move{
+    display: block;
+    margin: auto auto;
+    white-space: nowrap;
+    overflow: hidden;
+    min-width: 100%;
+
+}
+
+.text-move2{
+    animation-delay: 5s;
+}
+
+.text-move span{
+    display: inline-block;
+    white-space: nowrap;
+    animation: moveText 10s linear infinite;
+}
+
+.arrivals-text{
+    color: black;
+    -webkit-text-fill-color: white; 
+    -webkit-text-stroke: 1px black;
+}
+
+@keyframes moveText {
+    0% {
+        transform: translate(0,0);
+    }
+    100% {
+        transform: translate(-100%, 0);
+    }
+}

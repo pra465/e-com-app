@@ -1,0 +1,12 @@
+.product-details-page{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+
+@media only screen and (max-width: 568px){
+.product-details-page{
+    display: block;
+}
+}

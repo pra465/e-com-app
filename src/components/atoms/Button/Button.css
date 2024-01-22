@@ -1,0 +1,28 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight:wght@700;900&display=swap');
+*{
+    font-family: 'Inter Tight', sans-serif;
+}
+.CTA{
+    background-color: #FF0000;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.Primary{
+    background-color: #004080;
+    color: #fff;
+    padding: 8px 12px;
+    border: none;
+    border-radius: 5px;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.wishlist-btn{
+    margin-left: 10px;
+    background-color: rgb(203, 57, 57);
+}

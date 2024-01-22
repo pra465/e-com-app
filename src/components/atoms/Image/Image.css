@@ -1,0 +1,26 @@
+.imageContainer{
+    background-color: #F5F5F5;
+    height: fit-content;
+    width: fit-content;
+    display: flex;
+    justify-content: center;
+    align-items: centers;
+    padding: 0px;
+    margin-bottom: 5px;
+}
+
+.productImage{
+    width: 400px;
+    height: 450px;
+    object-fit: cover;
+}
+
+@media only screen and (max-width: 480px){
+    .productImage{
+        width: 100%;
+    }
+}
+
+@media only screen and (max-width: 768px){
+    
+}

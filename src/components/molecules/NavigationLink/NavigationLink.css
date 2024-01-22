@@ -1,0 +1,12 @@
+.nav-link-container{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-column-gap: 100px;
+    place-items: center;
+}
+
+@media only screen and (max-width: 580px) {
+    .nav-link-container{
+        display: block;
+    }
+}

@@ -1,0 +1,14 @@
+.items-counter-container{
+    width: 17px;
+    height: 17px;
+    position: absolute;
+    background-color: #004080;
+    border-radius: 50%;
+    color: #ffffff;
+    text-align: center;
+    right: 3px;
+    top: 0px;
+}
+.items-counter{
+    font-size: small;
+}

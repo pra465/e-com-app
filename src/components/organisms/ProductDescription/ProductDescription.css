@@ -1,0 +1,16 @@
+.product-description-container{
+    margin-left: 100px;
+}
+
+.product-heading{
+    margin-bottom: 20px;
+}
+.product-description{
+    margin-bottom: 20px;
+}
+
+@media only screen and (max-width: 568px){
+    .product-description-container{
+        margin-left: 0px;
+    }
+}
