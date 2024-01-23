@@ -5,6 +5,7 @@ import Paragraph from '../../atoms/Paragraph/Paragraph';
 import './ProductCard.css';
 import { addToCart } from '../../../slices/itemsSlice';
 import { useDispatch } from 'react-redux';
+import { Link } from 'react-router-dom';
 const ProductCard = ({ productItem }) => {
   const dispatch = useDispatch();
   const handleClick = () => {
@@ -12,9 +13,11 @@ const ProductCard = ({ productItem }) => {
   };
   return (
     <div className="product-card">
-      <Image productImage={productItem.images[0]} />
+      <Link to={'/' + productItem.id}>
+        <Image productImage={productItem.images[0]} />
+      </Link>
       <h2>{productItem.name}</h2>
-      <Paragraph label={productItem.subInfo} />
+      {/* <Paragraph label={productItem.subInfo} /> */}
       <div className="price-btn">
         <Paragraph label={'Rs. ' + productItem.price} />
         <Button

@@ -9,6 +9,10 @@ import { useState } from 'react';
 import CartPage from '../cartPage/CartPage';
 const Header = () => {
   const [toggleNav, setToggleNav] = useState(false);
+  const [toggleCart, setToggleCart] = useState(false);
+  const toggleCartPage = () => {
+    setToggleCart(!toggleCart);
+  };
   const toggleNavBar = () => {
     setToggleNav(!toggleNav);
   };
@@ -23,7 +27,7 @@ const Header = () => {
       <div className="search-bar">
         <SearchBar />
       </div>
-      <CartIcon />
+      <CartIcon toggleCart={toggleCartPage} />
       <RxHamburgerMenu className="hamburgur-icon" onClick={toggleNavBar} />
       {toggleNav && (
         <div className="nav-container-small-device">
@@ -31,7 +35,7 @@ const Header = () => {
           <SearchBar />
         </div>
       )}
-      <CartPage />
+      {toggleCart && <CartPage />}
     </div>
   );
 };

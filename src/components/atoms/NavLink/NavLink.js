@@ -3,9 +3,9 @@ import { Link } from 'react-router-dom';
 import './NavLink.css';
 const NavLink = ({ label, pathUrl }) => {
   return (
-    <p>
-      <Link to={pathUrl}>{label}</Link>
-    </p>
+    <Link to={pathUrl} className="links">
+      {label}
+    </Link>
   );
 };
 

@@ -3,3 +3,7 @@
     font-family: 'Inter Tight', sans-serif;
     letter-spacing: 1px;
 }
+.logo-link{
+    text-decoration: none;
+    color: #000000;
+}

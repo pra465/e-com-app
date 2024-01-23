@@ -14,6 +14,7 @@ const ClothingPage = () => {
     }
   };
   const cloths = useSelector((item) => item.items);
+
   const filteredProducts =
     selectedGender.length > 0
       ? cloths.itemsData[1].products.filter((product) =>
@@ -25,6 +26,7 @@ const ClothingPage = () => {
       <FilterSection
         handleCheckboxChange={handleCheckboxChange}
         selectedGender={selectedGender}
+        // sortProducts={sortProducts}
       />
       <ProductList productItems={filteredProducts} />
     </div>

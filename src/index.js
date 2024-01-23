@@ -8,6 +8,8 @@ import { createBrowserRouter, RouterProvider } from 'react-router-dom';
 import ShoesPage from './components/Tamplates/ShoesPage/ShoesPage';
 import ClothingPage from './components/Tamplates/ClothingPage/ClothingPage';
 import Home from './components/Tamplates/Home';
+import ProductDetailsPage from './components/Tamplates/ProductDetailsPage/ProductDetailsPage';
+import SearchPage from './components/Tamplates/SearchPage/SearchPage';
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const appRoute = createBrowserRouter([
   {
@@ -25,6 +27,14 @@ const appRoute = createBrowserRouter([
       {
         path: '/clothing',
         element: <ClothingPage />,
+      },
+      {
+        path: '/:productId',
+        element: <ProductDetailsPage />,
+      },
+      {
+        path: '/searchedProducts',
+        element: <SearchPage />,
       },
     ],
   },

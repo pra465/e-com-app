@@ -23,7 +23,6 @@ const ShoesPage = () => {
         )
       : shoes.itemsData[0].products;
 
-  console.log(filteredProducts);
   return (
     <div>
       <FilterSection

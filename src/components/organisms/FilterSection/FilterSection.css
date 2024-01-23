@@ -1,6 +1,14 @@
 .filter-section{
     display: flex;
-    justify-content: space-around;
     align-items: center;
     margin-top: 50px;
+    margin-left: 35px;
+}
+
+@media only screen and (max-width: 580px){
+    .filter-section{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
 }

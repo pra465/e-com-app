@@ -1,8 +1,8 @@
 import React from 'react';
-
+import './Filter.css';
 const Filter = ({ handleCheckboxChange, selectedGender }) => {
   return (
-    <div className="">
+    <div className="filterSection">
       <input
         type="checkbox"
         id="male"

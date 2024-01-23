@@ -9,8 +9,11 @@ const Home = () => {
   return (
     <div>
       <HeroBanner />
-      <ProductList productItems={cloths.itemsData[1].products} />
-      <NewArrivals />
+      <ProductList
+        productItems={cloths.itemsData[1].products}
+        treandingtext={true}
+      />
+      <h1>New Arrivals</h1>
       <ProductList productItems={cloths.itemsData[1].products} />
       {/* <ProductDetailsPage /> */}
     </div>

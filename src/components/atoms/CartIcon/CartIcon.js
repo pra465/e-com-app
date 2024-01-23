@@ -2,11 +2,11 @@ import React from 'react';
 import { FaShoppingCart } from 'react-icons/fa';
 import { useSelector } from 'react-redux';
 import './CartIcon.css';
-const CartIcon = () => {
+const CartIcon = ({ toggleCart }) => {
   const cartItemsNumber = useSelector((state) => state.items);
   const length = cartItemsNumber.cartItems.length;
   return (
-    <div>
+    <div onClick={toggleCart}>
       <FaShoppingCart />
       <div className="items-counter-container">
         <p className="items-counter">{length}</p>
