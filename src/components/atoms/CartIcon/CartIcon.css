@@ -12,3 +12,13 @@
 .items-counter{
     font-size: small;
 }
+
+.cartIcon{
+    cursor: pointer;
+}
+
+@media only screen and (max-width: 550px){
+    .items-counter-container{
+        right: 16px;
+    }
+}

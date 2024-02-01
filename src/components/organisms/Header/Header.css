@@ -31,10 +31,12 @@
     .nav-container-small-device{
         display: block;
         position: absolute;
-        top: 12%;
-        right: 10px;
-        background-color: bisque;
+        top: 39px;
+        right: 1px;
+        background-color: #ffffff;
+        box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
         padding: 10px;
         text-align: center;
+        z-index: 100;
     }
 }

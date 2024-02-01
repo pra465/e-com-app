@@ -1,7 +1,7 @@
 import { Outlet } from 'react-router-dom';
 import './App.css';
 import Header from './components/organisms/Header/Header';
-import Home from './components/Tamplates/Home';
+import Footer from './components/Tamplates/Footer/Footer';
 function App() {
   return (
     <div className="App">

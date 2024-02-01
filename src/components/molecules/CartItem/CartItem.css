@@ -1,6 +1,6 @@
 .cartitem{
     display: grid;
-    grid-template-columns: 1.3fr 2.5fr 1fr;
+    grid-template-columns: 1.3fr 2.5fr 2fr 1fr;
     align-items: center;
     margin-top: 10px;
 }
@@ -9,4 +9,10 @@
     width: 80px;
     height: 80px;
     object-fit: cover;
+}
+
+.quantity__handling{
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }

@@ -25,10 +25,18 @@
     background-image: linear-gradient(to right, #000000, #FFFFFF);
     opacity: 0.3;
 }
+.hero__para{
+    margin: 20px 0px;
+}
 
 @media only screen and (max-width: 568px){
     .hero-banner-content{
-        position: absolute;
-        transform: translate(-50%, -50%);
+    position: absolute;
+    }
+    .hero-banner{
+        height: 40vh;
+    }
+    .hero-banner-mask{
+        height: 40vh;
     }
 }

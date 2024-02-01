@@ -8,5 +8,6 @@
 @media only screen and (max-width: 568px){
 .product-details-page{
     display: block;
+    text-align: center;
 }
 }

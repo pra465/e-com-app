@@ -7,7 +7,9 @@ const CartIcon = ({ toggleCart }) => {
   const length = cartItemsNumber.cartItems.length;
   return (
     <div onClick={toggleCart}>
-      <FaShoppingCart />
+      <div className="cartIcon">
+        <FaShoppingCart />
+      </div>
       <div className="items-counter-container">
         <p className="items-counter">{length}</p>
       </div>

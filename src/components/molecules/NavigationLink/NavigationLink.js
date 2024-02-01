@@ -6,7 +6,6 @@ const NavigationLink = () => {
     <div className={'nav-link-container'}>
       <NavLink label="Shoes" pathUrl="/shoes" />
       <NavLink label="Clothing" pathUrl="/clothing" />
-      <NavLink label="Gear" />
     </div>
   );
 };

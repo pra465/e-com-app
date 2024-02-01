@@ -2,7 +2,15 @@
     position: absolute;
     right: 2px;
     top: 39px;
-    background-color: burlywood;
+    background-color: #ffffff;
     padding: 10px;
     z-index: 100;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
 }
+
+.totalAmount{
+    margin-top: 30px;
+}
+
+
+

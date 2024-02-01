@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter+Tight&display=swap');
 .product-description-container{
     margin-left: 100px;
 }
@@ -7,6 +8,8 @@
 }
 .product-description{
     margin-bottom: 20px;
+    margin-top: 30px;
+    font-weight: lighter;
 }
 
 @media only screen and (max-width: 568px){

@@ -6,14 +6,15 @@ import { useParams } from 'react-router-dom';
 import { useSelector } from 'react-redux';
 const ProductDetailsPage = () => {
   const { productId } = useParams();
-  const productArray = useSelector(
-    (state) => state.items.itemsData[0].products
-  );
-  const productItem = productArray[productId - 1];
+  const productArray = useSelector((state) => state.items.itemsData);
+  const allProducts = productArray.reduce((accumulator, category) => {
+    return accumulator.concat(category.products);
+  }, []);
+  const productItem = allProducts[productId - 1];
   return (
     <div className="product-details-page">
       <ProductImages product={productItem} />
-      <ProductDescription />
+      <ProductDescription product={productItem} />
     </div>
   );
 };

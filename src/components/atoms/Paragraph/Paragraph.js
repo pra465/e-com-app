@@ -1,6 +1,7 @@
 import React from 'react';
+import './Paragraph.css';
 const Paragraph = ({ label }) => {
-  return <p>{label}</p>;
+  return <p className="para">{label}</p>;
 };
 
 export default Paragraph;

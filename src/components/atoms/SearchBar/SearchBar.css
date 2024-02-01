@@ -10,3 +10,7 @@
 .searchBar{
     display: flex;
 }
+
+.search__btn{
+    margin-left: 5px;
+}

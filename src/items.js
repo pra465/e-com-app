@@ -9,6 +9,7 @@ const items = {
           subInfo: 'Air Max 270 Sneakers For Men  (Black)',
           gender: 'Men',
           price: 13295,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/m/w/j/-original-imagxe2gtjjfcch6.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/s/w/5/6-ah8050-022-6-nike-black-white-university-red-anthracite-original-imagwnqwh4xrfgpg.jpeg?q=70&crop=false',
@@ -23,6 +24,7 @@ const items = {
           subInfo: 'Running Shoes For Men  (Multicolor)',
           gender: 'Men',
           price: 11310,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/e/x/z/-original-imagszajztnjvhq6.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/x/e/q/-original-imagszajg95zuy4z.jpeg?q=70&crop=false',
@@ -37,6 +39,7 @@ const items = {
           subInfo: 'FOOTBALL Football Shoes For Men  (Silver)',
           gender: 'Men',
           price: 89.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/e/g/5/-original-imagg7etbynuhhdf.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/kw9krrk0/shoe/2/s/m/11-mstlfso2-11-5-new-balance-black-original-imag8z8abqe6npcc.jpeg?q=70&crop=false',
@@ -51,6 +54,7 @@ const items = {
           subInfo: 'BASKETBALL Basketball Shoes For Men  (Multicolor)',
           gender: 'Men',
           price: 11657,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/m/l/d/-original-imagudchdenhy64q.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/y/z/y/-original-imagpguxetyhfjj9.jpeg?q=70&crop=false',
@@ -65,6 +69,7 @@ const items = {
           subInfo: 'Deviate Nitro 2 WTR Wns Sneakers For Women  (Black)',
           gender: 'Women',
           price: 79.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/2/a/c/-original-imagxe2hg6es8tsq.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/2/z/w/4-do9328-700-4-nike-volt-diffused-blue-wolf-grey-photon-dust-original-imagvq7zzcn76mkx.jpeg?q=70&crop=false',
@@ -79,6 +84,7 @@ const items = {
           subInfo: 'ULTRABOOST 22 W Running Shoes For Women  (Black)',
           gender: 'Women',
           price: 79.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/c/f/s/-original-imagfpz88xjcgzfh-bb.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/kzllrbk0/shoe/p/u/0/4-gx5587-4-adidas-cblack-cblack-cblack-original-imagbkjksjsmy7ww.jpeg?q=70&crop=false',
@@ -93,6 +99,7 @@ const items = {
           subInfo: 'Deviate Nitro 2 WTR Wns Sneakers For Women  (Black)',
           gender: 'Women',
           price: 79.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/q/j/k/-original-imagxe2ghwkabkpc.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/p/o/j/3-cz0596-600-3-nike-sweet-beet-cave-purple-pink-rise-white-original-imagvq8ffgkzmudd.jpeg?q=70&crop=false',
@@ -107,6 +114,7 @@ const items = {
           subInfo: 'Deviate Nitro 2 WTR Wns Sneakers For Women  (Black)',
           gender: 'Women',
           price: 79.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/u/9/w/3-5-21252452-36-5-nike-pink-original-imags9ywwuqqfydu.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/shoe/j/v/d/3-5-21252452-36-5-nike-pink-original-imags9ywhkd89g6g.jpeg?q=70&crop=false',
@@ -126,6 +134,7 @@ const items = {
           sunInfo: 'Men Solid Crew Neck Polyester Black T-Shirt',
           gender: 'Men',
           price: 4283,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/q/c/s/-original-imaguawvyrkd68pq.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/m/v/z/-original-imaguawvzfy3zyz4.jpeg?q=70&crop=false',
@@ -140,6 +149,7 @@ const items = {
           sunInfo: ' Men Solid Polo Neck Pure Cotton White T-Shirt',
           gender: 'Men',
           price: 19.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/u/w/c/-original-imags8sy9xdvum8y.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/j/h/n/-original-imags8syg9rzae23.jpeg?q=70&crop=false',
@@ -155,6 +165,7 @@ const items = {
             'Ferrari Race AOP Men Solid Polo Neck Pure Cotton Red T-Shirt',
           gender: 'Men',
           price: 19.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/f/6/f/xs-62094902-puma-original-imagscybnt9yu5bt.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/p/f/g/xs-62094902-puma-original-imagscybny6fput7.jpeg?q=70&crop=false',
@@ -170,6 +181,7 @@ const items = {
             'Ferrari Race tnl Bg Shld Men Printed Round Neck Pure Cotton Yellow T-Shirt',
           gender: 'Men',
           price: 19.99,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/w/d/z/s-62095104-puma-original-imagscycshammep8.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/n/a/d/s-62095104-puma-original-imagscycjykehve9.jpeg?q=70&crop=false',
@@ -185,6 +197,7 @@ const items = {
             'CL D TURTLE NECK Women Solid High Neck Polyester Black T-Shirt',
           gender: 'Women',
           price: 2433,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/kpwybgw0/sweatshirt/5/3/s/s-ft8134-reebok-classics-original-imag4fk5fmpvmrst.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/kpwybgw0/sweatshirt/6/i/i/s-ft8134-reebok-classics-original-imag4fk5wgdbjqsz.jpeg?q=70&crop=false',
@@ -199,6 +212,7 @@ const items = {
           subInfo: 'Miler Women Solid Round Neck Polyester Black T-Shirt',
           gender: 'Women',
           price: 2499,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/kfoapow0-0/t-shirt/l/k/r/m-aj8129-010-nike-original-imafw2jxtkye3av5.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/k6gsk280/t-shirt/6/w/d/s-aj8129-010-nike-original-imafzpx6xwewygv8.jpeg?q=70&crop=false',
@@ -214,6 +228,7 @@ const items = {
             'TREFOIL TEE Women Printed Crew Neck Pure Cotton Black T-Shirt',
           gender: 'Women',
           price: 2499,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/6/r/m/-original-imagtsf5z64qkgeq.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/d/s/c/-original-imagtsf5zbdjpnw6.jpeg?q=70&crop=false',
@@ -228,6 +243,7 @@ const items = {
           subInfo: 'Women Solid Round Neck Pure Cotton Pink T-Shirt',
           gender: 'Women',
           price: 1899,
+          quantity: 0,
           images: [
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/x/1/r/s-j221426tlv-calvin-klein-original-imagucdgqafphpjc.jpeg?q=70&crop=false',
             'https://rukminim2.flixcart.com/image/832/832/xif0q/t-shirt/h/6/0/s-j221426tlv-calvin-klein-original-imagucdgaebx8g7z.jpeg?q=70&crop=false',

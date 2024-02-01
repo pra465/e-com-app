@@ -10,8 +10,8 @@ const Sort = ({ sortProducts }) => {
     <div>
       <select onChange={handleChange} value={sortOrder}>
         <option value="">Select</option>
-        <option value="lowToHigh">High to Low</option>
-        <option value="highToLow">Low to high</option>
+        <option value="highToLow">High to Low</option>
+        <option value="lowToHigh">Low to high</option>
       </select>
     </div>
   );
